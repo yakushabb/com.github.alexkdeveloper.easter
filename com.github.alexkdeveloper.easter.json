@@ -30,8 +30,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/alexkdeveloper/easter.git",
-                    "tag": "1.0.3",
-                    "commit": "8c35e8b2fbe093433bb6996781d5824416147f99"
+                    "tag": "1.0.4",
+                    "commit": "8c03fce63e72cdf001e1af27e7751200aa8c83aa"
                 }
             ]
         }
