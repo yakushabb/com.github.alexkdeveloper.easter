@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.alexkdeveloper.easter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "com.github.alexkdeveloper.easter",
     "finish-args" : [
@@ -31,8 +31,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/alexkdeveloper/easter.git",
-                    "tag": "1.1.0",
-                    "commit": "3c4200a707583ba4c8888473ddae30f481ac057d"
+                    "tag": "1.2.0"
                 }
             ]
         }
