@@ -1,0 +1,39 @@
+From eb1eb612fc4c731dbf642b72240502efe305bd9a Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Thu, 14 Nov 2024 19:57:02 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/com.github.alexkdeveloper.easter.appdata.xml.in | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/data/com.github.alexkdeveloper.easter.appdata.xml.in b/data/com.github.alexkdeveloper.easter.appdata.xml.in
+index 6827aa1..c7fcbb4 100644
+--- a/data/com.github.alexkdeveloper.easter.appdata.xml.in
++++ b/data/com.github.alexkdeveloper.easter.appdata.xml.in
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<component type="desktop">
++<component type="desktop-application">
+ 	<id>com.github.alexkdeveloper.easter</id>
+ 	<metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+@@ -11,10 +11,12 @@
+   <provides>
+     <binary>com.github.alexkdeveloper.easter</binary>
+   </provides>
++  <launchable type="desktop-id">com.github.alexkdeveloper.easter.desktop</launchable>
+   <developer_name>Alex Kryuchkov</developer_name>
+-  <url type="homepage">http://github.com/alexkdeveloper/easter</url>
+-  <url type="bugtracker">http://github.com/alexkdeveloper/easter/issues</url>
+-  <url type="help">http://github.com/alexkdeveloper/easter/issues</url>
++  <url type="homepage">https://github.com/alexkdeveloper/easter</url>
++  <url type="bugtracker">https://github.com/alexkdeveloper/easter/issues</url>
++  <url type="vcs-browser">https://github.com/alexkdeveloper/easter</url>
++  <url type="help">https://github.com/alexkdeveloper/easter/issues</url>
+   <screenshots>
+     <screenshot type="default">
+     <image>https://raw.githubusercontent.com/alexkdeveloper/easter/main/data/screenshot.png</image>
+--
+libgit2 1.7.2
+
